@@ -1,0 +1,28 @@
+{
+  "name": "databasecommentseeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericcchiu/databaseCommentSeeder.git"
+  },
+  "author": "Eric Chiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericcchiu/databaseCommentSeeder/issues"
+  },
+  "homepage": "https://github.com/ericcchiu/databaseCommentSeeder#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "eslint-config-hackreactor": "github:hackreactor-labs/eslint-config-hackreactor",
+    "faker": "^4.1.0",
+    "mongoose": "^5.4.3"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security"
+  }
+}

@@ -1,0 +1,15 @@
+## Node Modules ##
+node_modules/
+
+## ENV ## 
+*.ENV
+
+## DS Stores ## 
+.DS_Store
+
+
+## Raw Data file ## 
+reviews1.json
+reviews2.json
+reviews3.json
+reviews4.json
