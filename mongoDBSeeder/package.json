@@ -23,6 +23,7 @@
     "mongoose": "^5.4.3"
   },
   "devDependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "jest": "^23.6.0"
   }
 }
