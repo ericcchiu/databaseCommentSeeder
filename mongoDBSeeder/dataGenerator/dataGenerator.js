@@ -18,7 +18,7 @@ for (let i = 1; i <= 2500000; i++) {
   });
 }
 
-fs.writeFile("../data/reviews3.json", JSON.stringify(rawDataArray), err => {
+fs.writeFile("../data/reviews1.json", JSON.stringify(rawDataArray), err => {
   if (err) {
     throw err;
   }
