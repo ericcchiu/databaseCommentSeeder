@@ -6,6 +6,7 @@ const stringify = require("csv-stringify");
 
 const rawDataArray = [];
 let columns = {
+  review_id: "review_id",
   pet_id: "pet_id",
   user_id: "user_id",
   review: "review",
@@ -17,20 +18,21 @@ console.log("Data generation in progress...");
 
 // Iterate to 2.5 million
 const before = new Date().getTime();
-for (let i = 1; i <= 10000000; i++) {
+for (let i = 5000001; i <= 10000000; i++) {
   rawDataArray.push([
     i,
     i,
-    faker.lorem.text(),
+    i,
+    faker.lorem.words(),
     Math.floor(Math.random() * 6),
-    faker.date.past()
+    faker.date.weekday()
   ]);
 }
 stringify(rawDataArray, { header: true, columns: columns }, (err, output) => {
   if (err) {
     throw err;
   }
-  fs.writeFile("../data/reviews.csv", output, err => {
+  fs.writeFile("../data/reviews2.csv", output, err => {
     if (err) {
       throw err;
     }

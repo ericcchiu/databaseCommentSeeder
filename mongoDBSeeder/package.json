@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles"
+    "jestTest": "jest --detectOpenHandles",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,9 @@
     "mongoose": "^5.4.3"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "fs": "0.0.1-security",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "mocha": "^5.2.0"
   }
 }

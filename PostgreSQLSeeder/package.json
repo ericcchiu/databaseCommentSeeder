@@ -1,0 +1,20 @@
+{
+  "name": "postgresqlseeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csv-stringify": "^5.1.2",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint-config-hackreactor": "github:hackreactor-labs/eslint-config-hackreactor",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

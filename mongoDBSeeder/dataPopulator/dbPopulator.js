@@ -25,7 +25,7 @@ console.log("Data population in progress...");
 const before = new Date().getTime();
 
 db.Review.insertMany(reviews)
-  .then(result => {
+  .then(() => {
     console.log("Insert successful, pending time results");
     const after = new Date().getTime();
     const duration = (after - before) / 1000;
