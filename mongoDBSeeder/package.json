@@ -26,6 +26,7 @@
     "mongoose": "^5.4.3"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
     "fs": "0.0.1-security",
     "jest": "^23.6.0",

@@ -42,4 +42,5 @@ const reactionSchema = new Schema({
 });
 
 const Review = mongoose.model('Review', reviewSchema);
+Review.createIndexes({ review_id: 1 });
 module.exports = { Review, db };

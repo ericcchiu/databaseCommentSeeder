@@ -24,6 +24,7 @@ mongoose.connection.on("error", () => {
 console.log("Data population in progress...");
 const before = new Date().getTime();
 
+
 db.Review.insertMany(reviews)
   .then(() => {
     console.log("Insert successful, pending time results");
