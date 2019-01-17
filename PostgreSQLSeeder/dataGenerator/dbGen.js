@@ -18,7 +18,7 @@ console.log("Data generation in progress...");
 
 // Iterate to 2.5 million
 const before = new Date().getTime();
-for (let i = 5000001; i <= 10000000; i++) {
+for (let i = 7500001; i <= 10000000; i++) {
   rawDataArray.push([
     i,
     i,
@@ -32,7 +32,7 @@ stringify(rawDataArray, { header: true, columns: columns }, (err, output) => {
   if (err) {
     throw err;
   }
-  fs.writeFile("../data/reviews2.csv", output, err => {
+  fs.writeFile("../data/reviews4.csv", output, err => {
     if (err) {
       throw err;
     }

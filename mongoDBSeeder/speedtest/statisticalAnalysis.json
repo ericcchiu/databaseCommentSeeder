@@ -1,8 +1,18 @@
-{
-  "MongoDB": {
-    "Retrieval_PreOp": {
-      "ExecutionTimeMS": 2609.5,
-      "StandardDev": 35.51067914491827
+[
+  {
+    "MongoDB": {
+      "Retrieval_PreOp": {
+        "ExecutionTimeMS": 2609.5,
+        "StandardDev": 35.51067914491827
+      }
+    }
+  },
+  {
+    "MongoDB": {
+      "Retrieval_PostOp": {
+        "ExecutionTimeMS": 0.03333333333333333,
+        "StandardDev": 0.006085806194501846
+      }
     }
   }
-}
+]

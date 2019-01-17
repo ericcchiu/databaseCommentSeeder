@@ -6,8 +6,8 @@
   "scripts": {
     "jestTest": "jest --detectOpenHandles",
     "test": "mocha",
-    "generate": "node --max-old-space-size=8192 dataGenerator/dataGenerator.js",
-    "seed": "node --max-old-space-size=8192 dataPopulator/dataPopulator.js"
+    "generate": "node --max-old-space-size=8192 ./dataGenerator/dataGenerator.js",
+    "seed": "node --max-old-space-size=8192 ./dataPopulator/dataPopulator.js"
   },
   "repository": {
     "type": "git",

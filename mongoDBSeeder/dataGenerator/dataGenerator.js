@@ -7,7 +7,7 @@ const rawDataArray = [];
 console.log("Data generation in progress...");
 // Iterate to 2.5 million
 const before = new Date().getTime();
-for (let i = 2500001; i <= 5000000; i++) {
+for (let i = 1; i <= 5; i++) {
   rawDataArray.push({
     review_id: i,
     pet_id: i,
@@ -18,7 +18,7 @@ for (let i = 2500001; i <= 5000000; i++) {
   });
 }
 
-fs.writeFile("../rawData/review2.json", JSON.stringify(rawDataArray), err => {
+fs.writeFile("./rawData/review2.json", JSON.stringify(rawDataArray), err => {
   if (err) {
     throw err;
   }
